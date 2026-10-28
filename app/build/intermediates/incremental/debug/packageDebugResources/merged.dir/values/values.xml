@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0B1B2A</color>
+    <color name="card">#12283A</color>
+    <color name="cyan">#35D6E8</color>
+    <color name="muted">#A6B8C7</color>
+    <color name="navy">#071522</color>
+    <color name="stroke">#25465B</color>
+    <color name="white">#F4FAFF</color>
+    <string name="app_name">Nexus Tecnología</string>
+    <style name="Theme.TecnologiaApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cyan</item>
+        <item name="colorPrimaryVariant">@color/navy</item>
+        <item name="colorSecondary">@color/cyan</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:navigationBarColor">@color/navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

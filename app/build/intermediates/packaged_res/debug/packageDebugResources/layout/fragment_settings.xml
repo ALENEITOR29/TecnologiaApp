@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TU PERFIL"
+        android:textColor="@color/cyan"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.16" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileAvatar"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/image_placeholder"
+        app:civ_border_color="@color/cyan"
+        app:civ_border_width="3dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Sesión iniciada como"
+        android:textColor="@color/muted"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/loggedUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Alejandro"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cuenta local • Nexus Tecnología"
+        android:textColor="@color/muted"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/cyan"
+        android:text="CERRAR SESIÓN"
+        android:textColor="@color/navy"
+        android:textStyle="bold" />
+</LinearLayout>

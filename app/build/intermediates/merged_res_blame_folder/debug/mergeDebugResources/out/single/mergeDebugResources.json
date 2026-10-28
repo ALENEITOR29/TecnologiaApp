@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/drawable_input_background.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/drawable/input_background.xml"
+    },
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/layout_item_technology_card.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/layout/item_technology_card.xml"
+    },
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/color_nav_item_color.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/color/nav_item_color.xml"
+    },
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/layout_activity_login.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/layout_fragment_settings.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/drawable_image_placeholder.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/drawable/image_placeholder.xml"
+    },
+    {
+        "merged": "com.example.tecnologia.app-debug-32:/layout_fragment_home.xml.flat",
+        "source": "com.example.tecnologia.app-main-34:/layout/fragment_home.xml"
+    }
+]
